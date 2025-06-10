@@ -1,13 +1,10 @@
-import HeaderClient from './components/client/HeaderClient/HeaderClient'
-import SocialMedia from './components/client/SocialMedia/SocialMedia'
+import Routing from './routing/Routing'
 
 function App() {
 
   return (
     <>
-      <HeaderClient />
-
-      <SocialMedia />
+      <Routing />
     </>
   )
 }
