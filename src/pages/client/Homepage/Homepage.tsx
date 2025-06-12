@@ -2,9 +2,13 @@ import CarouselClient from "../../../components/client/Carousel/CarouselClient"
 
 const Homepage = () => {
   return (
-    <div className="h-[500px]">
+    <>
+
+      {/* Carousel */}
+      <section className="h-[500px]">
         <CarouselClient />
-    </div>
+      </section>
+    </>
   )
 }
 

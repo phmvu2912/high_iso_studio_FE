@@ -3,7 +3,7 @@ import { Link } from "react-router-dom"
 
 const HeaderClient = () => {
     return (
-        <header className="bg-amber-200 py-4">
+        <header className="bg-transparent py-4">
             <div className="container w-auto mx-auto">
                 <div className="flex justify-between items-center">
                     <div className="logo flex-1">
